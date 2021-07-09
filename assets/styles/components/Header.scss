@@ -1,0 +1,32 @@
+.TopBar {
+  background: #192a56;
+  .Container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  &-iten {
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    &:hover {
+      background: #273c75;
+    }
+  }
+
+  &-icon {
+    width: 30px;
+    height: 30px;
+    background: #718093;
+    display: block;
+    border-radius: 100px;
+  }
+
+}

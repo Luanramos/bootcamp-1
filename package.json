@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "scripts": {
+    "dev": "parcel watch ./assets/styles/index.scss --public-url ./",
+    "build": "parcel build <your entry file>"
+  }
+}
