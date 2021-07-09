@@ -85,17 +85,32 @@ table {
   border-radius: 100px;
 }
 
+.Header .Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .Header .Logo {
-  margin-top: 30px;
+  max-width: 150px;
+  height: 80px;
+  overflow: hidden;
 }
-.Header .Menu {
+.Header .Menu ul {
   display: flex;
-  justify-content: center;
   gap: 40px;
-  margin-top: -15px;
+  color: #000;
+  font-size: 18px;
 }
-.Header .Button {
-  display: flex;
+.Header .Menu ul a {
+  text-decoration: none;
+  color: inherit;
+}
+.Header button {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #192a56;
+  color: #fff;
 }
 
 .Container {
