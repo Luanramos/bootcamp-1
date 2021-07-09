@@ -85,6 +85,19 @@ table {
   border-radius: 100px;
 }
 
+.Header .Logo {
+  margin-top: 30px;
+}
+.Header .Menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: -15px;
+}
+.Header .Button {
+  display: flex;
+}
+
 .Container {
   max-width: 1170px;
   margin: 0 auto;

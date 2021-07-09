@@ -30,3 +30,25 @@
   }
 
 }
+
+// Header//
+
+.Header {
+  .Logo {
+    margin-top: 30px;
+  }
+
+  
+  .Menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -15px;
+   
+ }
+
+ .Button {
+   display: flex;
+ }
+
+}
