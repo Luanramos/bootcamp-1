@@ -38,12 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 15px;
   }
 
   .Logo {
-    max-width: 150px;
-    height: 80px;
+    max-width: 100px;
+    height: 70px;
     overflow: hidden;
+    
   }
   
   .Menu ul {

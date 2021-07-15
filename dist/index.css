@@ -56,6 +56,11 @@ table {
   border-spacing: 0;
 }
 
+.Container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .TopBar {
   background: #192a56;
 }
@@ -89,10 +94,11 @@ table {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .Header .Logo {
-  max-width: 150px;
-  height: 80px;
+  max-width: 100px;
+  height: 70px;
   overflow: hidden;
 }
 .Header .Menu ul {
@@ -113,9 +119,41 @@ table {
   color: #fff;
 }
 
-.Container {
-  max-width: 1170px;
-  margin: 0 auto;
+.Hero {
+  margin-top: 15px;
+  position: absolute;
+}
+.Hero .Image img {
+  min-width: 1349px;
+  height: 500px;
+  position: relative;
+}
+.Hero .Text h2 {
+  position: absolute;
+  margin-top: -450px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 60px;
+}
+.Hero .Text p {
+  position: absolute;
+  margin-top: -300px;
+  color: #fff;
+  font-size: 20px;
+}
+.Hero .Text p span {
+  font-weight: bold;
+}
+.Hero button {
+  position: absolute;
+  margin-top: -220px;
+  border: 0;
+  background: #273c75;
+  color: #fff;
+  padding: 13px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=index.css.map */
