@@ -1,11 +1,9 @@
 .Hero {
   margin-top: 15px;
-  position: absolute;
 
   .Image img {
     min-width: 1349px;
     height: 500px;
-    position: relative;
   }
 
   .Text h2 {
@@ -13,12 +11,12 @@
     margin-top: -450px;
     font-weight: bold;
     color: #fff;
-    font-size: 60px;
+    font-size: 60px;    
   }
 
   .Text p {
     position: absolute;
-    margin-top: -300px;
+    margin-top: -300px;    
     color: #fff;
     font-size: 20px;
   }

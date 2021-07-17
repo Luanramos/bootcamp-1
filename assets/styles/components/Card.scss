@@ -1,0 +1,31 @@
+.Card {
+  margin-top: 20px;
+
+  .Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  &-itens {
+    background: #273c75;
+    text-align: center;
+    
+    .Icons {
+      max-width: 90px;
+      color: #fff; 
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+}
