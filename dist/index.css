@@ -179,6 +179,44 @@ table {
 .Card-itens p {
   font-size: 16px;
   color: #fff;
+  margin-bottom: 10px;
+}
+
+.Services {
+  margin-top: 30px;
+}
+.Services .Container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.Services-title {
+  text-align: center;
+}
+.Services-title h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.Services-title p {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Services-cards img.Photo {
+  width: 60px;
+  height: 50px;
+}
+.Services-cards h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.Services-cards p {
+  font-size: 16px;
+}
+.Services-cards cite {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */
