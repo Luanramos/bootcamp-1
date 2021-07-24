@@ -1,9 +1,41 @@
 #Footer {
   background: #c8d6e5;
+  
 
-    .Logo {
-      max-width: 100px;
-      height: 70px;
-      overflow: hidden;
+  .Container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Logo {
+    max-width: 100px;
+    height: 70px;
+    overflow: hidden; 
+  }
+
+  .Final {
+
+    span {
+      color: #192a56;
+      font-weight: bold;
     }
+    
+    p {
+     margin-top: 20px; 
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    a {
+      font-style: none;
+    }
+
+
+  }
+    
+
 }

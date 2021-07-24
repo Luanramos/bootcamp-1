@@ -279,10 +279,29 @@ table {
 #Footer {
   background: #c8d6e5;
 }
+#Footer .Container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #Footer .Logo {
   max-width: 100px;
   height: 70px;
   overflow: hidden;
+}
+#Footer .Final span {
+  color: #192a56;
+  font-weight: bold;
+}
+#Footer .Final p {
+  margin-top: 20px;
+}
+#Footer .Final h3 {
+  margin-top: 20px;
+}
+#Footer .Final a {
+  font-style: none;
 }
 
 /*# sourceMappingURL=index.css.map */
