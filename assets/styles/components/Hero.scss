@@ -1,24 +1,20 @@
 .Hero {
+  background: url("https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=60") no-repeat center center;
+  background: cover;
   margin-top: 15px;
-
-  .Image img {
-    min-width: 1349px;
-    height: 500px;
-  }
+  height: 500px;
 
   .Text h2 {
-    position: absolute;
-    margin-top: -450px;
     font-weight: bold;
     color: #fff;
-    font-size: 60px;    
+    font-size: 60px; 
+    padding: 30px 0;   
   }
 
-  .Text p {
-    position: absolute;
-    margin-top: -300px;    
+  .Text p {    
     color: #fff;
     font-size: 20px;
+    font-style: italic;
   }
 
   .Text p span {
@@ -26,8 +22,7 @@
   }
 
   button {
-    position: absolute;
-    margin-top: -220px;
+    margin-top: 30px;
     border: 0;
     background: #273c75;
     color: #fff;
